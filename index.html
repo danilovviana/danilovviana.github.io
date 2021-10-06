@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <meta http-equiv="cache-control" content="no-cache">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Linktree</title>
-
+    <title>Danilo Viana - Links</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LH0NCLG7WM"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-LH0NCLG7WM');
-    </script>
   </head>
   <body>
+    <div class="container">
     <div class="profile">
       <img src="img/danilo.jpeg" alt="Danilo" class="avatar">
-      <h1>Danilo V. Viana</h1>
-      <h2>Full Stack Developer | Educador | Empreendedor</h2>
+      <span class="name">Danilo Viana</span>
+      <span class="skill">Full Stack Developer | Educador | Empreendedor</span>
     </div>
     <ul class="social">
       <li>
@@ -47,39 +42,44 @@
         </a>
       </li>
     </ul>
-    <ul class="links-list">
-      <li>
-        <a href="https://thiago-medeiros.com/formacao-fullstack-javascript/?hsrc=bGlua3RyZWU%3D" class="active1" >
-          Curso em andamento - Web Fullstack
-          <span>Curso de programação web para iniciantes (do zero).</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://infinityschool.com.br/cursos/digital-design/" class="active2">
-          Curso de Digital Design - Infinity School
-          <span>Intro Digital Design, Publicidade e Marketing, Comunicação e produção Gráfica, Design e Produção Audiovisual, VFX - Pós Produção.</span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.mdlbahia.com.br/mdlbahia/index.php" class="active3">
-          Idealizador e Diretor Administrativo
-          <span>Maior Acampamento Educativo do Nordeste - Mundo da Lua Acampamento.</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/mdartprodutora/" class="active4">
-          Idealizador e Diretor
-          <span>Mdart Produções de Espetáculos e Eventos Culturais.</span>
-        </a>
-      </li>
-    </ul>
-    <ul class="links-list second">
-      <li>
-        <a href="https://t.me/@Danviana">
-          Telegram
-          <span>Fale comigo no Telegram.</span>
-        </a>
-      </li>
-    </ul>
+    <div class="cards">
+      <a class="card purple" target="_blank" href="https://thiago-medeiros.com/formacao-fullstack-javascript/?hsrc=bGlua3RyZWU%3D">
+        <i class="fas fa-laptop-code fa-2x" aria-hidden="true"></i>
+          <div class="info">
+          <h3>Formação Full Stack Javascript</h3>
+          <p>Curso em andamento.</p>
+        </div>
+      </a>  
+      <a class="card purple" target="_blank" href="https://infinityschool.com.br/cursos/digital-design">
+          <i class="fas fa-code fa-2x" aria-hidden="true"></i>
+          <div class="info">
+            <h3>Curso de Digital Design - Infinity School</h3>
+            <p>Intro Digital Design, Publicidade e Marketing, Comunicação e produção Gráfica, Design e Produção Audiovisual, VFX - Pós Produção.</p>
+          </div>
+      </a>
+      <a class="card youtube" target="_blank" href="http://www.mdlbahia.com.br/mdlbahia/index.php">
+          <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>			
+          <div class="info">
+            <h3>Idealizador e Diretor Administrativo</h3>
+            <p>Empresa Mundo da Lua Acampamento - Maior Acampamento Educativo do Nordeste.</p>
+          </div>				
+      </a>					
+  
+      <a class="card youtube" target="_blank" href="https://www.instagram.com/mdartprodutora/">
+          <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>			
+          <div class="info">
+            <h3>Idealizador e Diretor</h3>
+            <p>Mdart Produções de Espetáculos e Eventos Culturais.</p>
+          </div>				
+      </a>
+      <a class="card telegram" target="_blank" href="https://t.me/@Danviana">
+          <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>			
+          <div class="info">
+            <h3>Telegram</h3>
+            <p>Fale comigo no Telegram.</p>
+          </div>
+      </a>
+    
+      </div>
   </body>
 </html>
