@@ -153,28 +153,6 @@ h2 {
   line-height: 1;
 }
 
-i.fas.fa-laptop-code.fa-2x {
-  content: "\f5fc";
-}
-
-i.fa-youtube:before {
-  content: "\f5fc";
-}
-
-.fa-laptop-code:before {
-  content: "\f5fc";
-}
-
-.fa-code:before {
-  content: "\f121";
-}
-
-.fa-telegram:before {
-  content: "\f121";
-}
-
-
-
 
 @-webkit-keyframes floating {
   0% {
