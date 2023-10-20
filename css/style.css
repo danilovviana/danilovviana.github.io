@@ -7,13 +7,12 @@
 
 html,
 body {
-    background-image: url(../img/background.png);
     height: 100%;
     text-align: center;
 }
 
 body {
-    background-image: url(../background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
