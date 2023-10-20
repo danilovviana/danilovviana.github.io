@@ -7,5 +7,5 @@ danilovviana.github.io
 
 # Imagem do projeto
 
-![printscreen do projeto](..img/img_pronto.png)
+![printscreen do projeto](img/img_pronto.png)
 
